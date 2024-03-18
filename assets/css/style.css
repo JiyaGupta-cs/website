@@ -429,12 +429,18 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
-  width: 100%;
-  height: calc(100vh - 110px);
-  background: url("../img/hero-bg.gif") top center;
-  background-size: cover;
   position: relative;
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: url("../img/lpm_banner.png") top center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero:before {
@@ -453,6 +459,7 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
+  position: relative;
   color: #fff;
 }
 
@@ -460,6 +467,7 @@ h6 {
   color: #eee;
   margin-bottom: 30px;
   font-size: 24px;
+  position: relative;
 }
 
 #hero .btn-get-started {
@@ -506,9 +514,6 @@ h6 {
     margin-bottom: 30px;
   }
 }
-
-
-
 
 
 #hero1 {
@@ -828,7 +833,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.gif") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg1.gif") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
