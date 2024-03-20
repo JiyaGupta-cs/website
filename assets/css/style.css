@@ -9,6 +9,46 @@
 # General
 --------------------------------------------------------------*/
 
+.research-pillars {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pillar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.pillar:last-child {
+  margin-right: 0;
+}
+
+.pillar h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pillar p {
+  font-size: 16px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-container video {
+  width: 800px;
+  height: 450px;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -435,12 +475,13 @@ h6 {
   text-align: center;
   width: 100%;
   height: calc(100vh - 60px);
-  background: url("../img/lpm_banner.png") top center;
+  background: url("../img/Slide1_4.jpg") top center;
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: brightness(2.0); /* Increase the brightness by 30% */
 }
 
 #hero:before {

@@ -1,3 +1,5 @@
+<!-- MIT Center for Large Population Models -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style_custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Day - v4.9.0
@@ -36,7 +39,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -47,11 +49,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Motivation</a></li>
-          <li><a class="nav-link scrollto " href="#why-us">Research</a></li>
+          <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
+          <li><a class="nav-link scrollto" href="#about">Mission</a></li>
+          <li><a href="https://web.media.mit.edu/~ayushc/motivation.pdf" target="_blank">Research</a></li>
+          <li><a href="https://github.com/AgentTorch/AgentTorch" target="_blank">Platform</a></li>
           <!-- <li><a class="nav-link scrollto" href="#services">Partners</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#portfolio">Videos</a></li> -->
           <li><a class="nav-link scrollto" href="#cta">Get Involved</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -63,40 +65,55 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <h1>Large Population Models </h1>
-      <h2>realistic. secure. <i>reliable</i> agent-based intelligence</h2>
-      <!-- <a href="https://forms.gle/7kF5aiwvKMUDRzZs5" class="btn-get-started scrollto" target="_blank">Sign-up for future updates</a> -->
+      <div id="typewriter"></div>
     </div>
-    <!-- <div class="banner">
-      <div class="banner-text">
-          Large Population Models
-          <h3>Making Complexity Simple to Address Global Challenges</h3>
-          <a href="https://forms.gle/7kF5aiwvKMUDRzZs5" class="btn-get-started scrollto" target="_blank">Sign-up for future updates</a>
-      </div>
-  </div> -->
-
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
+          <center>Our world is complex. </center>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-6 order-lg-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/motivation_fig.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            Self-organized complexity emerges everywhere from cells to societies. Large population models reveal this collective intelligence by 
-            bridging mechanistic simplicity with behavioral richness. LPMs help model the morphogenesis of organs by simulating cell interactions, understand pandemics by tracking disease transmission between individuals, and study online dynamics by recreating 
-            interactions between avatars. By pioneering techniques to securely access populations, efficiently scale simulations and enable reliable analysis, LPMs establish a practical toolkit for tackling challenges inside the body, around us and beyond. 
-            With rigorous calibration, validation and transparency, large population models provide accessible digital twins of emergent phenomena - making complexity simple again.
-          </div>
+
+      <div class="container">
+        <div class="section-title">
+          <span>LPMs in action</span>
+          <h2>LPMs in action</h2>
         </div>
 
+        <!-- <h2><center>See LPMs in action: </center></h2> -->
+        <div class="video-container">
+          <video controls>
+            <source src="assets/neo_demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
-    </section><!-- End About Section -->
+
+      <div class="research-pillars">
+        <div class="pillar">
+          <h3>Scalability</h3>
+          <p>AgentTorch can simulate country-size populations in seconds on commodity hardware.</p>
+        </div>
+        <div class="pillar">
+          <h3>Differentiability</h3>
+          <p>AgentTorch models can differentiate through simulations with stochastic dynamics and conditional interventions, enabling gradient-based learning.</p>
+        </div>
+        <div class="pillar">
+          <h3>Composition with DNNs</h3>
+          <p>AgentTorch models can compose with deep neural networks (DNNs) to describe autonomous agent behavior, calibrate simulation parameters to multi-modal data and specify expressive interaction rules.</p>
+        </div>
+        <div class="pillar">
+          <h3>Generalization</h3>
+          <p>AgentTorch helps simulate diverse ecosystems - humans in geospatial worlds, cells in anatomical worlds, autonomous avatars in digital worlds.</p>
+        </div>
+      </div>
+      <p>AgentTorch is building the future of decision engines - inside the body, around us and beyond!</p>
+
+      <!-- <p>With LPMs, we can tackle the grand challenges of our time by harnessing the power of self-organized complexity. Join us in shaping a better future through reliable, million-scale simulations.</p> -->
+    </section>
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us">
@@ -167,7 +184,7 @@
         <div class="text-center">
           <h3>Reach out</h3>
           <p>Email: ayushc@mit.edu</p>
-          <a class="cta-btn" href="https://forms.gle/7kF5aiwvKMUDRzZs5" target="_blank">Join Us</a>
+          <a class="cta-btn" href="https://forms.gle/7kF5aiwvKMUDRzZs5" target="_blank">Stay in Touch</a>
         </div>
 
       </div>
@@ -183,7 +200,7 @@
       <div class="copyright">
         <h4>LPM@MIT</h4>
         <br>
-        2023
+        2024
       </div>
 
       <div class="credits">
@@ -210,6 +227,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/main_custom.js"></script>
 
 </body>
 
